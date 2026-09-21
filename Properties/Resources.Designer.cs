@@ -61,6 +61,51 @@ namespace SushiGo.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Regresar.
+        /// </summary>
+        public static string ChangePasswordPage_Back {
+            get {
+                return ResourceManager.GetString("ChangePasswordPage_Back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Código de 6 dígitos.
+        /// </summary>
+        public static string ChangePasswordPage_Code {
+            get {
+                return ResourceManager.GetString("ChangePasswordPage_Code", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Correo electrónico.
+        /// </summary>
+        public static string ChangePasswordPage_Email {
+            get {
+                return ResourceManager.GetString("ChangePasswordPage_Email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Para cambiar la contraseña, ingresa el código de 6 dígitos que se te envió a tu correo electrónico.
+        /// </summary>
+        public static string ChangePasswordPage_Instructions {
+            get {
+                return ResourceManager.GetString("ChangePasswordPage_Instructions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cambiar contraseña.
+        /// </summary>
+        public static string ChangePasswordPage_Title {
+            get {
+                return ResourceManager.GetString("ChangePasswordPage_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Crear cuenta.
         /// </summary>
         public static string CreateAccountPage_CreateAccount {
@@ -111,6 +156,51 @@ namespace SushiGo.Properties {
         public static string CreateAccountPage_Username {
             get {
                 return ResourceManager.GetString("CreateAccountPage_Username", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ¿Olvidaste tu contraseña?.
+        /// </summary>
+        public static string LoginPage_ForgotPassword {
+            get {
+                return ResourceManager.GetString("LoginPage_ForgotPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Iniciar sesión.
+        /// </summary>
+        public static string LoginPage_LogIn {
+            get {
+                return ResourceManager.GetString("LoginPage_LogIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Correo / Nombre de usuario.
+        /// </summary>
+        public static string LoginPage_LoginMethod {
+            get {
+                return ResourceManager.GetString("LoginPage_LoginMethod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contraseña.
+        /// </summary>
+        public static string LoginPage_Password {
+            get {
+                return ResourceManager.GetString("LoginPage_Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Iniciar sesión.
+        /// </summary>
+        public static string LoginPage_Title {
+            get {
+                return ResourceManager.GetString("LoginPage_Title", resourceCulture);
             }
         }
         

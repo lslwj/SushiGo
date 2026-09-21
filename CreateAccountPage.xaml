@@ -25,9 +25,8 @@
             FontWeight="Normal"
             Foreground="#9B2424"
             TextAlignment="Center"
-            VerticalAlignment="Top" HorizontalAlignment="Center"/>
-
-
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"/>
 
         <TextBlock
             Text="{x:Static p:Resources.CreateAccountPage_Name}"
@@ -39,7 +38,7 @@
             FontSize="20"
             Foreground="#000000" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
-
+        
         <Border
             Canvas.Left="443"
             Canvas.Top="223"
@@ -58,8 +57,6 @@
                 BorderThickness="0"/>
         </Border>
 
-
-
         <TextBlock
             Text="{x:Static p:Resources.CreateAccountPage_Email}"
             Canvas.Left="443"
@@ -70,7 +67,7 @@
             FontSize="20"
             Foreground="#000000" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
-
+        
         <Border
             Canvas.Left="443"
             Canvas.Top="340"
