@@ -135,4 +135,7 @@
   <data name="CreateAccountPage_Username" xml:space="preserve">
     <value>Nombre de usuario</value>
   </data>
+  <data name="StartPage_Language" xml:space="preserve">
+    <value>Español</value>
+  </data>
 </root>

@@ -22,5 +22,10 @@ namespace SushiGo
 
             InitializeComponent();
         }
+        public static void ChangeLanguage(string language)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(language);
+            Thread.CurrentThread.CurrentCulture = new CultureInfo(language);
+        }
     }
 }

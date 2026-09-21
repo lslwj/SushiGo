@@ -169,6 +169,24 @@
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
+        <Button
+            x:Name="btnLanguage"
+            Content="{x:Static p:Resources.StartPage_Language}"
+            Canvas.Right="1080"
+            Canvas.Bottom="30"
+            Width="120"
+            Height="40"
+            Background="#1E1E1E"
+            Foreground="#B3B3B3"
+            BorderBrush="#1C1C1C"
+            BorderThickness="1"
+            FontFamily="Inter"
+            FontSize="16"
+            Click="btnLanguage_Click"
+            
+        />
+        
+
     </Canvas>
 
 </Window>

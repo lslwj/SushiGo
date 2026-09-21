@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -23,6 +24,23 @@ namespace SushiGo
         public CreateAccountPage()
         {
             InitializeComponent();
+        }
+
+        private void btnLanguage_Click(object sender, RoutedEventArgs e)
+        {
+            if (Thread.CurrentThread.CurrentUICulture.Name == "es-MX")
+            {
+                App.ChangeLanguage("en-US");
+            }
+            else
+            {
+                App.ChangeLanguage("es-MX");
+            }
+
+            CreateAccountPage newWindow = new CreateAccountPage();
+            newWindow.Show();
+
+            this.Close();
         }
     }
 }

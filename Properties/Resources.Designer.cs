@@ -113,5 +113,14 @@ namespace SushiGo.Properties {
                 return ResourceManager.GetString("CreateAccountPage_Username", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Español.
+        /// </summary>
+        public static string StartPage_Language {
+            get {
+                return ResourceManager.GetString("StartPage_Language", resourceCulture);
+            }
+        }
     }
 }
